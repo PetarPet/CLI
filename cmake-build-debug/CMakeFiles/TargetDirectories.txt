@@ -1,0 +1,3 @@
+C:/Users/Petar/Desktop/CLI/cmake-build-debug/CMakeFiles/CLI.dir
+C:/Users/Petar/Desktop/CLI/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Petar/Desktop/CLI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
