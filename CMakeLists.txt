@@ -7,11 +7,20 @@ add_executable(CLI src/main.cpp
         h/InputParser.h
         src/InputParser.cpp
         h/AbstractCommand.h
-        h/CommandEcho.h
-        h/FactoryCommand.h
-        h/CommandPrompt.h
-        src/FactoryCommand.cpp
-        src/CommandEcho.cpp
-        src/CommandPrompt.cpp
-        h/CommandTime.h
-        src/CommandTime.cpp)
+        h/EchoCommand.h
+        h/Factory.h
+        h/PromptCommand.h
+        src/Factory.cpp
+        src/EchoCommand.cpp
+        src/PromptCommand.cpp
+        h/TimeCommand.h
+        src/TimeCommand.cpp
+        h/DateCommand.h
+        src/DateCommand.cpp
+        h/TouchCommand.h
+        src/TouchCommand.cpp
+        h/TruncateCommand.h
+        src/TruncateCommand.cpp
+        h/RemoveCommand.h
+        src/RemoveCommand.cpp
+)

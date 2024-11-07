@@ -9,12 +9,12 @@
 
 #include "AbstractCommand.h"
 
-class CommandPrompt: public AbstractCommand {
+class PromptCommand: public AbstractCommand {
 public:
-    explicit CommandPrompt(CommandDecomposition cmd):AbstractCommand(std::move(cmd)){}
+    explicit PromptCommand(CommandDecomposition cmd):AbstractCommand(std::move(cmd)){}
     void execute() override;
 
-    ~CommandPrompt() override = default;
+    ~PromptCommand() override = default;
 
 private:
 };

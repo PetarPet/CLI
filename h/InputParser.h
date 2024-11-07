@@ -14,7 +14,7 @@ struct CommandDecomposition {
     std::string argument_part;
 };
 
-/* InputParser is singleton class which parses input string
+/* InputParser is SINGLETON which parses input string
  * in order to extract command code, option and argument */
 
 class InputParser {

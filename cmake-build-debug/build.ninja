@@ -61,26 +61,50 @@ build CMakeFiles/CLI.dir/src/InputParser.cpp.obj: CXX_COMPILER__CLI_unscanned_De
   OBJECT_DIR = CMakeFiles\CLI.dir
   OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
 
-build CMakeFiles/CLI.dir/src/FactoryCommand.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/FactoryCommand.cpp || cmake_object_order_depends_target_CLI
-  DEP_FILE = CMakeFiles\CLI.dir\src\FactoryCommand.cpp.obj.d
+build CMakeFiles/CLI.dir/src/Factory.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/Factory.cpp || cmake_object_order_depends_target_CLI
+  DEP_FILE = CMakeFiles\CLI.dir\src\Factory.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CLI.dir
   OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
 
-build CMakeFiles/CLI.dir/src/CommandEcho.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/CommandEcho.cpp || cmake_object_order_depends_target_CLI
-  DEP_FILE = CMakeFiles\CLI.dir\src\CommandEcho.cpp.obj.d
+build CMakeFiles/CLI.dir/src/EchoCommand.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/EchoCommand.cpp || cmake_object_order_depends_target_CLI
+  DEP_FILE = CMakeFiles\CLI.dir\src\EchoCommand.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CLI.dir
   OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
 
-build CMakeFiles/CLI.dir/src/CommandPrompt.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/CommandPrompt.cpp || cmake_object_order_depends_target_CLI
-  DEP_FILE = CMakeFiles\CLI.dir\src\CommandPrompt.cpp.obj.d
+build CMakeFiles/CLI.dir/src/PromptCommand.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/PromptCommand.cpp || cmake_object_order_depends_target_CLI
+  DEP_FILE = CMakeFiles\CLI.dir\src\PromptCommand.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CLI.dir
   OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
 
-build CMakeFiles/CLI.dir/src/CommandTime.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/CommandTime.cpp || cmake_object_order_depends_target_CLI
-  DEP_FILE = CMakeFiles\CLI.dir\src\CommandTime.cpp.obj.d
+build CMakeFiles/CLI.dir/src/TimeCommand.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/TimeCommand.cpp || cmake_object_order_depends_target_CLI
+  DEP_FILE = CMakeFiles\CLI.dir\src\TimeCommand.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CLI.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
+
+build CMakeFiles/CLI.dir/src/DateCommand.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/DateCommand.cpp || cmake_object_order_depends_target_CLI
+  DEP_FILE = CMakeFiles\CLI.dir\src\DateCommand.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CLI.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
+
+build CMakeFiles/CLI.dir/src/TouchCommand.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/TouchCommand.cpp || cmake_object_order_depends_target_CLI
+  DEP_FILE = CMakeFiles\CLI.dir\src\TouchCommand.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CLI.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
+
+build CMakeFiles/CLI.dir/src/TruncateCommand.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/TruncateCommand.cpp || cmake_object_order_depends_target_CLI
+  DEP_FILE = CMakeFiles\CLI.dir\src\TruncateCommand.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CLI.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
+
+build CMakeFiles/CLI.dir/src/RemoveCommand.cpp.obj: CXX_COMPILER__CLI_unscanned_Debug C$:/Users/Petar/Desktop/CLI/src/RemoveCommand.cpp || cmake_object_order_depends_target_CLI
+  DEP_FILE = CMakeFiles\CLI.dir\src\RemoveCommand.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CLI.dir
   OBJECT_FILE_DIR = CMakeFiles\CLI.dir\src
@@ -93,7 +117,7 @@ build CMakeFiles/CLI.dir/src/CommandTime.cpp.obj: CXX_COMPILER__CLI_unscanned_De
 #############################################
 # Link the executable CLI.exe
 
-build CLI.exe: CXX_EXECUTABLE_LINKER__CLI_Debug CMakeFiles/CLI.dir/src/main.cpp.obj CMakeFiles/CLI.dir/src/InputParser.cpp.obj CMakeFiles/CLI.dir/src/FactoryCommand.cpp.obj CMakeFiles/CLI.dir/src/CommandEcho.cpp.obj CMakeFiles/CLI.dir/src/CommandPrompt.cpp.obj CMakeFiles/CLI.dir/src/CommandTime.cpp.obj
+build CLI.exe: CXX_EXECUTABLE_LINKER__CLI_Debug CMakeFiles/CLI.dir/src/main.cpp.obj CMakeFiles/CLI.dir/src/InputParser.cpp.obj CMakeFiles/CLI.dir/src/Factory.cpp.obj CMakeFiles/CLI.dir/src/EchoCommand.cpp.obj CMakeFiles/CLI.dir/src/PromptCommand.cpp.obj CMakeFiles/CLI.dir/src/TimeCommand.cpp.obj CMakeFiles/CLI.dir/src/DateCommand.cpp.obj CMakeFiles/CLI.dir/src/TouchCommand.cpp.obj CMakeFiles/CLI.dir/src/TruncateCommand.cpp.obj CMakeFiles/CLI.dir/src/RemoveCommand.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CLI.dir

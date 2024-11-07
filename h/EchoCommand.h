@@ -8,11 +8,11 @@
 
 #include "AbstractCommand.h"
 
-class CommandEcho: public AbstractCommand {
+class EchoCommand: public AbstractCommand {
 public:
-    explicit CommandEcho(CommandDecomposition cmd):AbstractCommand(std::move(cmd)){}
+    explicit EchoCommand(CommandDecomposition cmd):AbstractCommand(std::move(cmd)){}
     void execute() override;
-    ~CommandEcho() override = default;
+    ~EchoCommand() override = default;
 
 private:
 };

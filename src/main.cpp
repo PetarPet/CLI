@@ -2,7 +2,7 @@
 #include <pstl/execution_defs.h>
 
 #include "../h/InputParser.h"
-#include "../h/FactoryCommand.h"
+#include "../h/Factory.h"
 #include "../h/AbstractCommand.h"
 
 using namespace std;
@@ -27,10 +27,10 @@ int main() {
                 parser->ClearCommandDecomposition();
                 parser->ProcessInputString(input_string);
 
-                AbstractCommand* command = FactoryCommand::CreateCommand(parser->GetCommandDecomposition());
+                AbstractCommand* command = Factory::CreateCommand(parser->GetCommandDecomposition());
                 command->execute();
             } catch (const std::exception& e) {
-                std::cout << "Error: " << e.what() << "\n";
+                std::cout << "Error: " << e.what() << std::endl;
             }
         }
     }

@@ -7,12 +7,12 @@
 
 #include "AbstractCommand.h"
 
-class CommandTime: public AbstractCommand {
+class TimeCommand: public AbstractCommand {
 public:
-    explicit CommandTime(const CommandDecomposition &cmd)
+    explicit TimeCommand(const CommandDecomposition &cmd)
         : AbstractCommand(cmd) {
     }
-    ~CommandTime() override = default;
+    ~TimeCommand() override = default;
 
     void execute() override;
 };

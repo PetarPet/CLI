@@ -7,8 +7,8 @@
 
 #include "AbstractCommand.h"
 
-// CONCRETE FACTORY DESIGN PATTERN
-class FactoryCommand {
+// CONCRETE FACTORY DESIGN PATTERN FOR CREATION OF COMMANDS
+class Factory {
 public:
     static AbstractCommand* CreateCommand(const CommandDecomposition& cmd);
 };

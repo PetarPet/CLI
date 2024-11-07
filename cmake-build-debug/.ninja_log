@@ -1,0 +1,21 @@
+# ninja log v6
+43	1273	7527117665538860	CMakeFiles/CLI.dir/src/InputParser.cpp.obj	56317fc1434be508
+317	1495	7527115620241510	CMakeFiles/CLI.dir/src/CommandDate.cpp.obj	97c56e1809783944
+306	1194	7527115620141840	CMakeFiles/CLI.dir/src/FactoryCommand.cpp.obj	fa5e5a3fe93de68b
+15	735	7527199212663642	CMakeFiles/CLI.dir/src/main.cpp.obj	2fc0134cd33faf43
+1249	1501	7527209037785948	CLI.exe	12803b5b6b0285f3
+3	469	7527216374895862	build.ninja	e8725752f59f005f
+36	1219	7527109959931425	CMakeFiles/CLI.dir/src/CommandEcho.cpp.obj	e5cb5cddfa68227c
+944	1980	7527109969017159	CMakeFiles/CLI.dir/src/CommandPrompt.cpp.obj	4d52a51ceae8cfe7
+33	1533	7527113158782983	CMakeFiles/CLI.dir/src/CommandTime.cpp.obj	7d1f24b3349e8de4
+10	947	7527205120990785	CMakeFiles/CLI.dir/src/Factory.cpp.obj	8bfb30a037fb9403
+1251	1810	7527117677616598	CMakeFiles/CLI.dir/src/PromptCommand.cpp.obj	507db4e01290b0d4
+1094	1925	7527117676040788	CMakeFiles/CLI.dir/src/EchoCommand.cpp.obj	b8bb8836f5363db9
+1273	2219	7527117677835983	CMakeFiles/CLI.dir/src/TimeCommand.cpp.obj	c427f69da4a1ff37
+10	1248	7527209025392562	CMakeFiles/CLI.dir/src/TruncateCommand.cpp.obj	b73922d1bc511f64
+1810	2581	7527117683201652	CMakeFiles/CLI.dir/src/DateCommand.cpp.obj	c8baba31669d1e21
+15	1239	7527200330076848	CMakeFiles/CLI.dir/src/TouchCommand.cpp.obj	cfa27f83b095f265
+12	1319	7527219976430328	CMakeFiles/CLI.dir/src/RemoveCommand.cpp.obj	1c391f7cff5bf504
+1320	2098	7527219989507826	CLI.exe	db968397a4883c3f
+11	845	7527222131038583	CMakeFiles/CLI.dir/src/Factory.cpp.obj	8bfb30a037fb9403
+846	1478	7527222139387927	CLI.exe	db968397a4883c3f
